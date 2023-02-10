@@ -1,0 +1,7 @@
+.places__website {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    gap: 12px;
+}
