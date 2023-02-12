@@ -1,0 +1,28 @@
+.intro {
+    margin: auto;
+    width: 984px;
+    padding-top: 92px;
+    padding-bottom: 92px;
+}
+
+@media all and (max-width: 425px) {
+    .intro {
+        width: 90vw;
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+}
+
+@media all and (426px < width <=768px) {
+    .intro {
+        width: 90vw;
+        padding-top: 88px;
+        padding-bottom: 88px;
+    }
+}
+
+@media all and (769px < width <=1024px) {
+    .intro {
+        width: 90vw;
+    }
+}
