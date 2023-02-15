@@ -1,0 +1,9 @@
+.footer__link-place {
+    padding-right: 18px;
+}
+
+@media all and (max-width: 750px) {
+    .footer__link-place {
+        padding-bottom: 32px;
+    }
+}
