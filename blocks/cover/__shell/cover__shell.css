@@ -1,0 +1,14 @@
+.cover__shell {
+    display: flex;
+    margin: auto;
+    width: 1184px;
+    min-height: 740px;      
+}
+
+
+@media all and (max-width: 1184px) {
+    .cover__shell {
+        width: 100vw;
+        min-height: calc(100vw*740/1184);
+    }
+}
